@@ -11,8 +11,10 @@ def counter_function(counter):
             print("Fizz")
         elif (i % 5):
             print("Buzz")
+        elif (i % 15):
+            for digits in range (0, 15):
+                print(digits)
         else:
             print("None")
-
 
 fizz_buzz()
