@@ -1,16 +1,18 @@
 #!/usr/bin/python3
 
 def fizz_buzz():
-    print("FizzBuzz program")
-    i = input()
+    i = int(input("Input number to compute: "))
 
-    if (i % 3 and i % 5)
-        print("FizzBuzz")
-    elif (i % 3)
-        print("Fizz")
-    elif (i % 5)
-        print("Buzz")
-    else:
+def counter_function(counter):
+    for i in range(1, 15):
+        if (i % 3 and i % 5):
+            print("FizzBuzz")
+        elif (i % 3):
+            print("Fizz")
+        elif (i % 5):
+            print("Buzz")
+        else:
+            print("None")
 
 
 fizz_buzz()
