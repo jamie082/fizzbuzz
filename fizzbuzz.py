@@ -17,4 +17,7 @@ def counter_function(counter):
         else:
             print("None")
 
+    for num_counter in range (1, 15):
+        print("I like coding in " + num_counter)
+
 fizz_buzz()
