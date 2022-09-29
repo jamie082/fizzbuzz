@@ -1,19 +1,17 @@
 #!/usr/bin/python3
 
 def fizz_buzz():
-    i = int(input("Input number to compute: "))
+    n = int(input("Input number for fizzbuzz: "))
 
-def counter_function(counter):
-    for i in range(1, 15):
-        if (i % 3 and i % 5):
-            print("FizzBuzz")
-        elif (i % 3):
-            print("Fizz")
-        elif (i % 5):
-            print("Buzz")
-        elif (i % 15):
-            print("This is a line")
+    for d in range(1, n):
+        if (n % 3 and n % 5):
+            print(str(d) + "FizzBuzz")
+        elif (n % 3):
+            print(str(d) + "Fizz")
+        elif (n % 5):
+            print(str(d) + "Buzz")
         else:
-            print("Something other than the values was entered" + i + "and the end")
+            print("You didn't enter a correct value" + i + "and the end")
 
 fizz_buzz()
+
