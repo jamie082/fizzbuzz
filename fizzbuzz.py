@@ -12,12 +12,8 @@ def counter_function(counter):
         elif (i % 5):
             print("Buzz")
         elif (i % 15):
-            for digits in range (0, 15):
-                print(digits)
+            print("This is a line")
         else:
-            print("None")
-
-    for num_counter in range (1, 15):
-        print("I like coding in " + num_counter)
+            print("Something other than the values was entered" + i + "and the end")
 
 fizz_buzz()
