@@ -8,13 +8,13 @@ fizz = "Fizz"
 
 for d in range(51):
     if (d % 3 == 0 and d % 5 == 0):
-         print(fizzbuzz, end=" ")
+         print(fizzbuzz)
          continue
     elif (d % 3 == 0): 
-         print(fizz, end=" ")
+         print(fizz)
          continue
     elif (d % 5 == 0):
-         print(buzz, end=" ")
+         print(buzz)
          continue
 
          print(d)
