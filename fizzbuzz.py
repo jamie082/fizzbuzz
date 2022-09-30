@@ -6,8 +6,9 @@ def fizz_buzz():
     for d in range(1, n):
         if (n % 3 and n % 5):
             print(str(d) + "FizzBuzz", end=' ')
-        elif (n % 3):
-            print(str(d) + "Fizz", end=' ')
+        elif (n % 3): # string.add
+            #print(str(d) + "Fizz", end=' ')
+            print(str(d) + d.replace(d, "Fizz"))
         elif (n % 5):
             print(str(d) + "Buzz", end=' ')
         else:
