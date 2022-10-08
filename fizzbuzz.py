@@ -16,5 +16,4 @@ for d in range(51):
     elif (d % 5 == 0):
          print(buzz)
          continue
-
-         print(d)
+    print(d)
